@@ -40,6 +40,24 @@ streamlit run appy.py
 
 This will start the Streamlit server and open the application in your default web browser..
 
+## Cleaning up
+To clean up the virtual environment, run the following command:
+
+1. Uninstall the dependencies:
+```
+pip uninstall -r requirements.txt -y
+```
+
+2. Deactivate the virtual environment:
+```shell
+deactivate
+```
+
+3. Remove the virtual environment:
+```shell
+rm -rf venv
+```
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
